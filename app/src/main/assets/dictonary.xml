@@ -1,0 +1,62 @@
+<foods>
+    <food>
+        <pname>com dia</pname>
+        <name>Cơm</name>
+        <link>https://upload.wikimedia.org/wikipedia/commons/3/39/Meshi.jpg</link>
+        <description>Là lương thực chính của các quốc gia châu Á. Được nấu bằng cách nấu gạo với nước từ 30 - 90 phút. Ăn kèm với các loại thực phẩm khác</description>
+    </food>
+    <food>
+        <pname>banh bao</pname>
+        <name>Bánh bao</name>
+        <link>https://upload.wikimedia.org/wikipedia/commons/c/c5/Nangua_Baozi_%28chinese_dumplings%29.jpg</link>
+        <description>Xuất xứ từ Trung Quốc. Bánh gồm vỏ làm bằng bột trộn amoniac nên có mùi hơi khai. Nhân tùy ý (thịt, trứng,...) hoặc không có nhân. Bánh bao không nhân còn được gọi là màng thầu</description>
+    </food>
+    <food>
+        <pname>banh mi</pname>
+        <name>Bánh mì</name>
+        <link>https://upload.wikimedia.org/wikipedia/commons/1/19/B%C3%A1nh_m%C3%AC.jpg</link>
+        <description>Là món ăn bình dân ở Việt Nam. Vỏ bánh làm từ bột mì, có độ giòn. Nhân đa dạng (thịt, trứng, pate, xúc xích).</description>
+    </food>
+    <food>
+        <pname>rau xao</pname>
+        <name>Rau</name>
+        <link>https://upload.wikimedia.org/wikipedia/vi/6/60/Rau.jpg</link>
+        <description>Là nguồn bổ sung chất xơ không thể thiếu. Trong những năm thiếu lương thực, rau là thức ăn chủ yếu cho người và động vật.</description>
+    </food>
+    <food>
+        <pname>dau hu</pname>
+        <name>Đậu phụ</name>
+        <link>https://upload.wikimedia.org/wikipedia/commons/0/03/Japanese_SilkyTofu_%28Kinugoshi_Tofu%29.JPG</link>
+        <description>Được chế biến từ đậu nành với nhiều tác dụng có lợi cho sức khỏe, giảm nguy cơ mắc các bệnh tim mạch.</description>
+    </food>
+    <food>
+        <pname>trung op la</pname>
+        <name>Trứng ốp la</name>
+        <link>https://upload.wikimedia.org/wikipedia/commons/a/ae/Sunny_side_up_by_yomi955.jpg</link>
+        <description>Trứng chiên không trộn lòng đỏ và trắng. Dễ chế biến. Ăn kèm với bánh mì, cơm,...</description>
+    </food>
+    <food>
+        <pname>thit kho tau</pname>
+        <name>Thịt kho tàu</name>
+        <link>https://upload.wikimedia.org/wikipedia/commons/5/5b/Caramelized_Pork_and_Eggs.jpg</link>
+        <description>Món ăn có xuất xứ từ Trung Quốc. Gồm trứng kho với thịt heo. Hương vị đậm đà. Đây là món ăn ngày Tết phổ biến</description>
+    </food>
+    <food>
+        <pname>bun bo</pname>
+        <name>Bún bò</name>
+        <link>https://upload.wikimedia.org/wikipedia/commons/3/3c/Bunbo.jpg</link>
+        <description>Bún được nấu với thịt bò (tái, nạm,...), nguồn gốc ở Huế, Việt Nam.</description>
+    </food>
+    <food>
+        <pname>mi xao</pname>
+        <name>Mì xào</name>
+        <link>https://upload.wikimedia.org/wikipedia/commons/2/25/InstantNoodles.JPG</link>
+        <description>Mì được xào với các loại rau, thịt, hải sản các loại.</description>
+    </food>
+    <food>
+        <pname>bo bit tet</pname>
+        <name>Bò bít tết</name>
+        <link>https://upload.wikimedia.org/wikipedia/commons/8/85/B%C3%B2_B%C3%ADt_t%E1%BA%BFt_Vi%E1%BB%87t_Nam.JPG</link>
+        <description>Gọi đúng phải là beefsteak (bít tết, beef là thịt bò). Xuất xứ từ phương Tây. Lát bò được nướng, chiên với gia vị phù hợp. Ăn kèm bánh mì, khoai tây chiên, trứng hay salad.</description>
+    </food>
+</foods>

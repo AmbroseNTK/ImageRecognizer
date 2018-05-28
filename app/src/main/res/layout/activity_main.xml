@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextureView
+                android:id="@+id/cameraPreview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ProgressBar
+                    android:id="@+id/timeBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ambrose Nguyen Tuan Kiet - Image Recognizer"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#beffffff"/>
+                <Button
+                    android:id="@+id/btRecognize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recognize"
+                    android:layout_alignParentBottom="true"
+                    android:background="#be217bf2"
+                    android:layout_alignParentEnd="true"
+                    android:textColor="#fff"/>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+                <RelativeLayout
+                    android:id="@+id/slidePanel"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:background="#fff"
+                    android:alpha=".6"
+                    >
+                <TextView
+                    android:id="@+id/tvObjectName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem Ipsum"
+                    android:textSize="12pt"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"/>
+                    <ImageView
+                        android:id="@+id/imgExample"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/tvObjectName"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_launcher_background"/>
+                    <TextView
+                        android:id="@+id/tvDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imgExample"
+                        android:text="Lorem ipsum donor"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:scrollbars="vertical" />
+                    <Button
+                        android:id="@+id/btHide"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:text="Done"
+                        android:textColor="#fff"
+                        android:background="#1896f5"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>
